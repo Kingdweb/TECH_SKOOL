@@ -1,0 +1,293 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: royalblue;
+    font-size: 50px;
+  }
+  .di {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(83, 49, 115);
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .NOW {
+    margin: 200px;
+    padding: 50px;
+  }
+
+  .drac{
+    display: flex;
+    margin: 0px;
+  }
+
+  .bor1 {
+    border: 2px solid #fff;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    color: rgb(83, 49, 115);
+  }
+
+  .bor2{
+    border: 2px solid #fff;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    color: rgb(0, 11, 158);
+    border: 50px;
+  }
+
+  .bor3{
+    border: 2px solid #fff;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    color: darkred;
+  }
+  
+  h2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    margin: 50px;
+    color: teal;
+  }
+  .hi {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 50px;
+    color: rgb(83, 49, 115);
+  }
+  .hu {
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(231, 37, 37);
+    height: 50px;
+    width: 80px;
+  }
+  .hu:hover {
+    border-radius: 2px;
+    cursor: pointer;
+    background-color: rgb(89, 255, 0);
+  }
+  .op {
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    background-color: #555;
+    height: 35px;
+    width: 80px;
+  }
+  .op:hover {
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    cursor: pointer;
+  }
+  
+  .writeup {
+    flex: 2;
+    margin-right: 20px;
+  }
+  
+  .image {
+    flex: 1;
+  }
+  
+  .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .last{
+    border: red solid;
+    width: 210px;
+    height: 50px;
+    border-radius: 1px;
+    font-size: 20px;
+    color: azure;
+  }
+  .head{
+    margin: 0 auto;
+    color: rgb(83, 49, 115);
+    /* font-size: 30px; */
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    /* text-align: center; */
+    display: flex;
+  }
+.h{
+  margin: 0 auto;
+}
+
+.e{
+  margin: 0 auto;
+}
+
+.ad{
+  margin: 0 auto;
+}
+.e1{
+  text-decoration:underline;
+}
+footer {
+  padding: px ;
+  background: #333;
+  color: white;
+  /* position: relative; */
+  /* bottom: 0; */
+  width: 100%;
+}
+video{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+.boy{
+  margin: 0 auto;
+  text-align: center;
+}
+a{
+  color: white;
+  text-decoration: none;
+  margin: 0 auto;
+  text-align: center;
+}
+.ahref{
+  text-align: center;
+}
+a:hover{
+  color: yellowgreen;
+  text-decoration: none;
+}
+
+.nall{
+  display: flex;
+}
+.n1{
+  margin: 0 auto;
+  font-size: 25px;
+}
+.r{
+  font-size: 30px;
+}
+.n2{
+  margin: 0 auto;
+}
+
+  .navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navbar li {
+    position: relative;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: red;
+    padding: 15px 20px;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 30px;
+    padding: 30px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+    color: #ff8000; /* Change this to your preferred hover text color */
+  }
+  button {
+    background-color: red;
+    border: 6px solid transparent;
+    border-radius: 12px;
+  }
+
+.head{
+  display: flex;
+  color: red;
+  margin: 100px;
+}
+
+  .dropdown {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+  }
+  .dropdown li {
+    display: block;
+  }
+  
+  .dropdown a {
+    padding: 10px;
+  }
+  
+  .navbar li:hover .dropdown {
+    display: block;
+  }
+  .au {
+    border-radius: 5px;
+    height: 40px;
+  }
+  .au:hover {
+    background-color: #555;
+    cursor: pointer;
+  }
+  .ku {
+    background-color: white;
+    border: 3px solid;
+    border-radius: 4px;
+    height: 40px;
+  }
+  .ku:hover {
+    border: 3px solid #6365d8;
+    background-color: #6365d8;
+    cursor: pointer;
+  }
+  .end{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 25px;
+  }
+  .T{
+    font-size: 20px;
+  }
